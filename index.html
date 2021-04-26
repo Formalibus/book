@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Книжонка</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <nav class="navig">
+        <a href="#" class="navig__logo">Книжонный червячок</a>
+        <a href="#" class="navig__link">Библиотека</a>
+        <a href="#" class="navig__link">Заказать книгу</a>
+        <a href="#" class="navig__link">Отдать книгу</a>
+        <a href="#" class="navig__link">Вернуть книгу</a>
+      </nav>
+    </header> -->
+    <main class="content">
+      <div class="bookWrapper">
+        <div id="flipbook">
+          <div class="hard">
+            <p>Мой дорогой дневник</p>
+          </div>
+          <div class="hard"></div>
+          <div>
+            <div class="flipContentus">
+              <h2>Содержание</h2>
+              <p>Глава 1. Мужик и шляпа</p>
+              <p>Глава 2. Медведь</p>
+              <p class="flipContentusPage">1</p>
+            </div>
+          </div>
+          <div>
+            <div class="flipContentus">
+              <h2>Глава 1. Мужик и шляпа</h2>
+              <p>Купил мужик шляпу. А она ему - как раз.</p>
+              <img
+                src="./images/pexels-radu-florin-2798470.jpg"
+                alt="a hatman"
+              />
+              <p class="flipContentusPage">2</p>
+            </div>
+          </div>
+          <div>
+            <div class="flipContentus">
+              <h2>Глава 2. Медведь</h2>
+              <p>
+                Идёт медведь по лесу, видит — машина горит. Сел в неё и сгорел.
+              </p>
+              <img src="./images/pexels-adonyi-gábor-1558916.jpg" alt="fire" />
+              <p class="flipContentusPage">3</p>
+            </div>
+          </div>
+          <div>Дописывается...</div>
+          <div class="hard"></div>
+          <div class="hard">&copy; udodelighed 2021</div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="./js/extras/jquery.min.1.7.js"></script>
+    <script src="./js/lib/turn.js"></script>
+    <script>
+      $("#flipbook").turn({
+        width: 700,
+        height: 500,
+      });
+    </script>
+  </body>
+</html>
